@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Lession1-Getting_Started">
+      <UniqueIdentifier>{294f6c0f-3a19-4f41-84ae-6d6c87410e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession2-Vectors">
+      <UniqueIdentifier>{4b868823-b655-4348-ad2a-59b4004e6a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession3-Practical_Cpp">
+      <UniqueIdentifier>{17eaf4c8-d771-4b06-b20b-764bc379aba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession3-Practical_Cpp\ex1">
+      <UniqueIdentifier>{5cae043f-15d6-4975-9c51-17c554b89c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession4-Cpp_OOP">
+      <UniqueIdentifier>{81cb4540-3bde-478e-9f1c-634176a11efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession4-Cpp_OOP\4.1-Gaussian_Class">
+      <UniqueIdentifier>{6846be6c-77f1-48ae-85f4-8cea238cf463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession4-Cpp_OOP\4.2-Inclusion_Guards">
+      <UniqueIdentifier>{b734ce19-3662-4204-806b-053c66c83320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession4-Cpp_OOP\4.3-OOP_Exercise">
+      <UniqueIdentifier>{d135c594-6eac-4079-aa33-ba201b039a2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="start.cpp">
+      <Filter>Source Files\Lession1-Getting_Started</Filter>
+    </ClCompile>
+    <ClCompile Include="function_signature.cpp">
+      <Filter>Source Files\Lession1-Getting_Started</Filter>
+    </ClCompile>
+    <ClCompile Include="if_else.cpp">
+      <Filter>Source Files\Lession1-Getting_Started</Filter>
+    </ClCompile>
+    <ClCompile Include="switch.cpp">
+      <Filter>Source Files\Lession1-Getting_Started</Filter>
+    </ClCompile>
+    <ClCompile Include="while.cpp">
+      <Filter>Source Files\Lession1-Getting_Started</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Source Files\Lession2-Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_for_loop.cpp">
+      <Filter>Source Files\Lession2-Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="distance.cpp">
+      <Filter>Source Files\Lession3-Practical_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="distance_main.cpp">
+      <Filter>Source Files\Lession3-Practical_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="rw_file.cc">
+      <Filter>Source Files\Lession3-Practical_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="rw_file-main.cpp">
+      <Filter>Source Files\Lession3-Practical_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="robo.cpp">
+      <Filter>Source Files\Lession3-Practical_Cpp\ex1</Filter>
+    </ClCompile>
+    <ClCompile Include="gaussian.cpp">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.1-Gaussian_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="gaussian_main.cpp">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.1-Gaussian_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.2-Inclusion_Guards</Filter>
+    </ClCompile>
+    <ClCompile Include="car.cpp">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.2-Inclusion_Guards</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.3-OOP_Exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="IG_main.cpp">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.2-Inclusion_Guards</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.3-OOP_Exercise</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="while.py">
+      <Filter>Source Files\Lession1-Getting_Started</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine.h">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.2-Inclusion_Guards</Filter>
+    </ClInclude>
+    <ClInclude Include="car.h">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.2-Inclusion_Guards</Filter>
+    </ClInclude>
+    <ClInclude Include="rw_file.h">
+      <Filter>Source Files\Lession3-Practical_Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="distance.h">
+      <Filter>Source Files\Lession3-Practical_Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Source Files\Lession4-Cpp_OOP\4.3-OOP_Exercise</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="matrix.txt">
+      <Filter>Source Files\Lession3-Practical_Cpp</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
