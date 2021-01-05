@@ -1,5 +1,9 @@
+#ifndef MATRIX_H
+#define MATRIX_H
 
 #include <vector>
+#include <stdexcept>
+#include <iostream>
 
 class Matrix
 {
@@ -36,7 +40,7 @@ public:
     std::vector<std::vector<float>> getGrid();
     std::vector<float>::size_type getRows();
     std::vector<float>::size_type getCols();
-    
+
 
     /*
     ** TODO: Declare the matrix functions. In a following exercise, you
@@ -47,10 +51,11 @@ public:
     ** matrix_addition receives a Matrix and outputs a 2D vector
     ** matrix_print has no inputs and no outputs
     */
-    std::vector<std::vector<float>> matrix_addition(Matrix);
-    std::vector<std::vector<float>> matrix_transpose();
+    Matrix matrix_addition(Matrix);
+    Matrix matrix_transpose();
     void matrix_print();
 
-
-
 };
+
+
+#endif // !MATRIX_H

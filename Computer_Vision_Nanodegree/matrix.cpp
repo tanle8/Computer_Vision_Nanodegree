@@ -1,5 +1,4 @@
 #include "matrix.h"
-#include <stdexcept>
 
 /* TODO: Define the default constructor. Remember the syntax is
 **      Classname::ClassName() {
@@ -88,6 +87,26 @@ std::vector<float>::size_type Matrix::getCols()
 }
 
 
+/* TODO: Define a matrix_transpose function
+* INPUT: a matrix
+* OUTPUT: the transpose of the grid variable 
+*/
+Matrix Matrix::matrix_transpose() {
+	std::vector<std::vector<float>> result;
+	std::vector<float> row;
+	
+	for (int i = 0; i < cols; i++) {
+		row.clear();
+		for (int j = 0; j < rows; j++) {
+			row.push_back(grid[j][i]);
+		}
+		result.push_back(row);
+	}
+
+	return Matrix(result);
+}
+
+
 
 /* TODO: Define a matrix_addition function
 **   INPUT: a matrix
@@ -107,23 +126,30 @@ std::vector<float>::size_type Matrix::getCols()
 **       method might be useful.
 **
 */
-std::vector<std::vector<float>> Matrix::matrix_addition(Matrix other)
+Matrix Matrix::matrix_addition(Matrix other)
 {
 	if (rows != other.getRows() || cols != other.getCols()) {
 		throw std::invalid_argument("matrices are not the same size");
 	}
 
 	// Create a 2D immediate vector to store value of input matrix
-	std::vector<std::vector<float>> tmp = other.getGrid();
+	std::vector<std::vector<float>> other_grid = other.getGrid();
 	// Create a 2D vector to store the result
 	std::vector<std::vector<float>> result;
 	// create a row to store the additing results
-	std::vector<float> rows;
+	std::vector<float> new_row;
 
 	// Add element-wise
+	for (int i = 0; i < rows; i++) {
+		new_row.clear();
+		for (int j = 0; j < cols; j++) {
+			new_row.push_back(grid[i][j] + other_grid[i][j]);
+		}
+		
+		result.push_back(new_row);
+	}
 
-
-	return std::vector<std::vector<float>>();
+	return Matrix(result);
 }
 
 
@@ -138,3 +164,14 @@ std::vector<std::vector<float>> Matrix::matrix_addition(Matrix other)
 ** 5    11  6   17
 ** 8    4   15  2
 */
+void Matrix::matrix_print() 
+{
+	std::cout << std::endl;
+	for (int i = 0; i < rows; i++) {
+		for (int j = 0; j < cols; j++) {
+			std::cout << grid[i][j] << " ";
+		}
+		std::cout << std::endl;
+	}
+	std::cout << std::endl;
+}

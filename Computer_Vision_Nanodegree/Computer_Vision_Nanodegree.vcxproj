@@ -147,8 +147,11 @@
     <ClCompile Include="gaussian_main.cpp" />
     <ClCompile Include="IG_main.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="moving_main.cpp" />
+    <ClCompile Include="matrix_main.cpp" />
     <ClCompile Include="matrix.cpp" />
     <ClCompile Include="robo.cpp" />
+    <ClCompile Include="robot_functions.cpp" />
     <ClCompile Include="rw_file-main.cpp" />
     <ClCompile Include="rw_file.cc" />
     <ClCompile Include="start.cpp" />
@@ -160,6 +163,8 @@
     <ClCompile Include="while.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="helpers.py" />
+    <None Include="move.py" />
     <None Include="while.py" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +172,7 @@
     <ClInclude Include="distance.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="matrix.h" />
+    <ClInclude Include="robot_functions.h" />
     <ClInclude Include="rw_file.h" />
   </ItemGroup>
   <ItemGroup>

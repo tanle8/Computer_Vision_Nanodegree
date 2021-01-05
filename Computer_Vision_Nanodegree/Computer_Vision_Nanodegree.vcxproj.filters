@@ -37,6 +37,18 @@
     <Filter Include="Source Files\Lession4-Cpp_OOP\4.3-OOP_Exercise">
       <UniqueIdentifier>{d135c594-6eac-4079-aa33-ba201b039a2a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lession5-Py_Cpp_Speed">
+      <UniqueIdentifier>{165aead7-d04c-460a-8d43-56b07d403c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession5-Py_Cpp_Speed\moving_py">
+      <UniqueIdentifier>{c2b6d32c-faf9-40a0-b5cd-0f7966f139e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession5-Py_Cpp_Speed\moving_cpp">
+      <UniqueIdentifier>{5a545981-640a-430b-90c7-31112f441fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization">
+      <UniqueIdentifier>{c3c07045-f751-4a44-ab7d-b838d003b2cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="start.cpp">
@@ -93,13 +105,28 @@
     <ClCompile Include="IG_main.cpp">
       <Filter>Source Files\Lession4-Cpp_OOP\4.2-Inclusion_Guards</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="matrix_main.cpp">
       <Filter>Source Files\Lession4-Cpp_OOP\4.3-OOP_Exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="robot_functions.cpp">
+      <Filter>Source Files\Lession5-Py_Cpp_Speed\moving_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="moving_main.cpp">
+      <Filter>Source Files\Lession5-Py_Cpp_Speed\moving_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Lession6-Cpp_Optimization</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="while.py">
       <Filter>Source Files\Lession1-Getting_Started</Filter>
+    </None>
+    <None Include="helpers.py">
+      <Filter>Source Files\Lession5-Py_Cpp_Speed\moving_py</Filter>
+    </None>
+    <None Include="move.py">
+      <Filter>Source Files\Lession5-Py_Cpp_Speed\moving_py</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +144,9 @@
     </ClInclude>
     <ClInclude Include="matrix.h">
       <Filter>Source Files\Lession4-Cpp_OOP\4.3-OOP_Exercise</Filter>
+    </ClInclude>
+    <ClInclude Include="robot_functions.h">
+      <Filter>Source Files\Lession5-Py_Cpp_Speed\moving_cpp</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
