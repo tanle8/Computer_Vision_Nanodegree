@@ -165,6 +165,15 @@
   <ItemGroup>
     <None Include="helpers.py" />
     <None Include="move.py" />
+    <None Include="README-3_For_loops.md" />
+    <None Include="README-4_Intermediate_variables.md" />
+    <None Include="README-5_Vector_storage.md" />
+    <None Include="README-6_References.md" />
+    <None Include="README-7_Static_keyword.md" />
+    <None Include="README-1_DeadCode.md" />
+    <None Include="README-2_If_statement.md" />
+    <None Include="README-0_Overview_Optimization.md" />
+    <None Include="README.md" />
     <None Include="while.py" />
   </ItemGroup>
   <ItemGroup>

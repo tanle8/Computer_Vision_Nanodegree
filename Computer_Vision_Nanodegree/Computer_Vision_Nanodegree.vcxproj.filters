@@ -49,6 +49,27 @@
     <Filter Include="Source Files\Lession6-Cpp_Optimization">
       <UniqueIdentifier>{c3c07045-f751-4a44-ab7d-b838d003b2cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization\1-Dead_code">
+      <UniqueIdentifier>{7693b9f1-2e07-42f7-b558-9e878ea75ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization\2-If_statement">
+      <UniqueIdentifier>{2c616e02-b909-4652-97a9-c3a19bcf4555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization\3-For_loops">
+      <UniqueIdentifier>{fcaddfe5-03b5-4a93-bd1b-cfd304b1258e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization\4-Intermediate_variables">
+      <UniqueIdentifier>{c4d1ff2b-60b2-4c20-b682-adc39226fe7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization\5-Vector_storage">
+      <UniqueIdentifier>{8917d698-533f-4640-8cd5-8026c208c1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization\6-References">
+      <UniqueIdentifier>{ddc30a1d-bb96-4e92-93de-b7188783c823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lession6-Cpp_Optimization\7-Static_Keyword">
+      <UniqueIdentifier>{9a54d7a4-61bf-4590-b787-216282449626}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="start.cpp">
@@ -127,6 +148,33 @@
     </None>
     <None Include="move.py">
       <Filter>Source Files\Lession5-Py_Cpp_Speed\moving_py</Filter>
+    </None>
+    <None Include="README-3_For_loops.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization\3-For_loops</Filter>
+    </None>
+    <None Include="README-4_Intermediate_variables.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization\4-Intermediate_variables</Filter>
+    </None>
+    <None Include="README-5_Vector_storage.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization\5-Vector_storage</Filter>
+    </None>
+    <None Include="README-6_References.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization\6-References</Filter>
+    </None>
+    <None Include="README-7_Static_keyword.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization\7-Static_Keyword</Filter>
+    </None>
+    <None Include="README-2_If_statement.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization\2-If_statement</Filter>
+    </None>
+    <None Include="README-1_DeadCode.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization\1-Dead_code</Filter>
+    </None>
+    <None Include="README-0_Overview_Optimization.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Source Files\Lession6-Cpp_Optimization</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
